@@ -158,7 +158,7 @@ def main():
     with st.sidebar:
         
         st.image(side_img, width=300)
-      st.title("T😊neSense- Speech-Based Emotion Detection System")
+        st.title("T😊neSense- Speech-Based Emotion Detection System")
        
       
     st.sidebar.subheader("Menu")
