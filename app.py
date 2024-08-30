@@ -392,7 +392,7 @@ def main():
             #     except Exception as e:
             #         st.error(f"Error {e}, model is not loaded")
 
-      st.title("ToneSense- Speech-Based Emotion Detection")
+      
     elif website_menu == "Project description":
         
         import pandas as pd
