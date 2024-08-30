@@ -392,9 +392,9 @@ def main():
             #     except Exception as e:
             #         st.error(f"Error {e}, model is not loaded")
 
-
+      st.title("ToneSense- Speech-Based Emotion Detection")
     elif website_menu == "Project description":
-        st.title("ToneSense- Speech-Based Emotion Detection")
+        
         import pandas as pd
         import plotly.express as px
         st.title("Project description")
