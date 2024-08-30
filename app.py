@@ -156,9 +156,29 @@ def plot_polar(fig, predictions=TEST_PRED, categories=TEST_CAT,
 def main():
     side_img = Image.open("images/emotion3.jpg")
     with st.sidebar:
+        st.markdown(
+            """
+            <style>
+            .sidebar-title {
+                background-color: #f1f1f1; /* Light grey background */
+                border: 2px solid #4CAF50; /* Green border */
+                border-radius: 10px; /* Rounded corners */
+                padding: 10px; /* Spacing inside the box */
+                font-size: 24px; /* Title font size */
+                font-weight: bold; /* Bold text */
+                text-align: center; /* Center text */
+                color: #333; /* Dark text color */
+            }
+            </style>
+            <div class="sidebar-title">
+                T😊neSense - Speech-Based Emotion Detection System
+            </div>
+            """,
+            unsafe_allow_html=True
+        )
         
         st.image(side_img, width=300)
-        st.title("T😊neSense- Speech-Based Emotion Detection System")
+        
        
       
     st.sidebar.subheader("Menu")
