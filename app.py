@@ -156,8 +156,9 @@ def plot_polar(fig, predictions=TEST_PRED, categories=TEST_CAT,
 def main():
     side_img = Image.open("images/emotion3.jpg")
     with st.sidebar:
-        st.title("T😊neSense- Speech-Based Em😊ti😊n Detecti😊n System")
+        
         st.image(side_img, width=300)
+      st.title("T😊neSense- Speech-Based Emotion Detection System")
        
       
     st.sidebar.subheader("Menu")
