@@ -156,6 +156,9 @@ def plot_polar(fig, predictions=TEST_PRED, categories=TEST_CAT,
 def main():
     side_img = Image.open("images/emotion3.jpg")
     with st.sidebar:
+   
+        
+        st.image(side_img, width=300)
         st.markdown(
             """
             <style>
@@ -176,8 +179,6 @@ def main():
             """,
             unsafe_allow_html=True
         )
-        
-        st.image(side_img, width=300)
         
        
       
