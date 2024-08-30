@@ -163,6 +163,7 @@ def main():
     st.set_option('deprecation.showfileUploaderEncoding', False)
 
     if website_menu == "Emotion Recognition":
+      st.title("ToneSense- Speech-Based Emotion Detection")
         st.sidebar.subheader("Model")
         model_type = st.sidebar.selectbox("How would you like to predict?", ("mfccs", "mel-specs"))
         em3 = em6 = em7 = gender = False
