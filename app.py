@@ -157,6 +157,8 @@ def main():
     side_img = Image.open("images/emotion3.jpg")
     with st.sidebar:
         st.image(side_img, width=300)
+        st.title("ToneSense- Speech-Based Emotion Detection System")
+      
     st.sidebar.subheader("Menu")
     website_menu = st.sidebar.selectbox("Menu", ("Emotion Recognition", "Project description", "Our team",
                                                  "Leave feedback", "Relax"))
